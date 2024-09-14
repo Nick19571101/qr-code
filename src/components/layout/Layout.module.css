@@ -1,0 +1,9 @@
+.footer {
+	text-align: center;
+	background-color: chocolate;
+	padding: 1rem 0;
+}
+
+.content {
+	flex-grow: 1;
+}

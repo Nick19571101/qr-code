@@ -1,0 +1,35 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+
+.qrWrapper svg path:last-child {
+	fill: blue;
+}
+
+.input {
+	border-radius: 7px;
+	background: rgba(51, 210, 30, 0.404);
+	border: 0.0313rem;
+	width: 25rem;
+	height: 3.125rem;
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-top: 3rem;
+	margin-bottom: 1rem;
+}
+
+.button {
+	border: none;
+	background: rgb(68, 62, 62);
+	color: white;
+	border-radius: 25px;
+	width: 16rem;
+	height: 3.125rem;
+	padding: 0.5rem 1rem;
+	font-size: 1.25rem;
+	margin-bottom: 1.6rem;
+}

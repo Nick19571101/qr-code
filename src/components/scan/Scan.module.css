@@ -1,0 +1,14 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 1rem;
+	padding: 2rem;
+	background: rgb(238, 238, 137);
+}
+
+.result {
+	font-size: 1.6rem;
+	margin-bottom: 2rem;
+}

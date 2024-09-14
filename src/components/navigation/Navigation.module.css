@@ -1,0 +1,28 @@
+.container {
+	background: rgba(255, 255, 2, 0.452);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	padding: 1rem 0;
+}
+
+.container a {
+	color: darkblue;
+	font-weight: 500;
+	padding: 0.2rem 0.7rem;
+	border: 1px solid blue;
+	border-radius: 3rem;
+	background: cornsilk;
+}
+
+.container a:hover {
+	color: rgb(49, 90, 7);
+}
+
+.container a.active,
+.container a:focus {
+	color: brown;
+	text-decoration: underline;
+	background: yellow;
+}

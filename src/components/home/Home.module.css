@@ -1,0 +1,19 @@
+.container {
+	padding: 1.2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.container img {
+	margin-bottom: 1.6rem;
+}
+
+.container h3 {
+	text-align: center;
+	margin-top: 1rem;
+	margin-bottom: 0.5rem;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	font-weight: 500;
+}
